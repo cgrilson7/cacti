@@ -1,2 +1,4 @@
-# cacti
-CNNs for detection of columnar cacti (Neobuxbaumia tetetzo) in aerial images of Mexico's Tehuacán-Cuicatlán Valley
+Cactification
+================
+
+### My solution to the aerial cactus identification (Kaggle contest)\[<https://www.kaggle.com/c/aerial-cactus-identification/>\]
