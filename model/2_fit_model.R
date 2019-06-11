@@ -6,7 +6,8 @@ filepath <- file.path(checkpoint_dir, "weights.{epoch:02d}-{val_loss:.2f}.hdf5")
 # Create checkpoint callback
 cp_callback <- callback_model_checkpoint(
   filepath = filepath,
-  save_weights_only = TRUE
+#  save_weights_only = TRUE,
+  save_best_only=TRUE
 )
 
 hist <- model %>% fit_generator(
